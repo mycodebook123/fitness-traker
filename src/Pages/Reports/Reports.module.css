@@ -1,0 +1,97 @@
+.Reports {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.desc {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.foodReport {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.exerciseReport {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.reportsTable {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(7, 7, 7);
+    margin-bottom: 50px;
+}
+
+.reportsTable th {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 10px 0px;
+}
+
+.reportsTable th:first-child {
+    background-color: rgb(8, 8, 8);
+    width: 40%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.reportsTable>tbody>tr {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.reportsTable td {
+    padding: 10px 0px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.reportsTable td:first-child {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.showDiv {
+    text-align: left;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.checkDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blueBtn {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(8, 9, 9);
+    color: #e0c031ef;
+    border: none;
+    border-radius: 5px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.blueBtn:hover {
+    cursor: pointer;
+    background-color: #e0c031ef;
+    color: black;
+    font-weight: bolder;
+}
+
+.Reports > button:last-child {
+    display: block;
+    margin: auto;
+}

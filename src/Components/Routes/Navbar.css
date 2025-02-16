@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: "Inter",Helvetica,Arial,-apple-system,sans-serif;
+}
+body {
+  padding-top: 150px; 
+}
+#navbar-parent{
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    background-color: #ffffff; 
+    
+}
+/* Base style for navigation links */
+#navigation-details a {
+    text-decoration: none;
+    color: #070707; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    /* text-align: center; */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+#navigation-details a:hover {
+    background: rgb(8, 8, 8); /* Blue background */
+    color: #e0c031ef; /* Yellow text */
+    padding: 10px 25px; /* Slight padding expansion */
+    border: none;
+    cursor: pointer;
+}
+
+/* Active state */
+#navigation-details a:active {
+    background: rgb(6, 6, 6); /* Same as hover */
+    color: #e0c031ef; 
+    border: none;
+}
+
+/* Optional styling for alignment */
+#navigation-details {
+    display: flex;
+    gap: 15px; /* Space between links */
+    justify-content: center; /* Center align */
+    margin-top: 20px; /* Adjust positioning */
+}
+
+#navbar-header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 14%; 
+}
+#img-myfitnesspal img{
+    height: 90px; 
+    width: auto;
+    padding-top: -130px;
+    cursor: pointer;
+}
+#img-myfitnesspal>h1>sup{
+    font-size: x-small;
+}
+#navbar-topmost-header{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* font-size: xx-large; */
+    align-items: center;
+}
+
+#navbar-topmost-header >p:nth-child(1) > span{
+    color: rgb(0,102,238);
+    cursor: pointer;
+}
+
+.fauser:hover{
+    color: orange;
+}
+.faenvelope{
+    color: gray;
+    cursor: pointer;
+}
+.faenvelope:hover{
+    color: orange;
+}
+/* #navbar-topmost-header >p:nth-child(3){
+    width: 3px;
+    color: gray;
+} */
+#navbar-topmost-header >p:nth-child(4){
+    color: rgb(0,102,238);
+    font-size: medium;
+    cursor: pointer;
+}
+
+#navbar-topmost-header >p:nth-child(6){
+    color: rgb(0,102,238);
+    font-size: medium;
+    cursor: pointer;
+}
+#navbar-topmost-header >p:nth-child(8){
+    color: rgb(0,102,238);
+    font-size: medium;
+    cursor: pointer;
+}
+.fafacebook{
+    color: rgb(0,102,238);
+    font-size: x-large;
+    cursor: pointer;
+}
+.fafacebook:hover{
+    color: orange;
+}
+.fatwitter{
+    color: rgb(0,102,238);
+    font-size: x-large;
+    cursor: pointer;
+}
+.fatwitter:hover{
+    color: orange;
+}
+#navigations{
+    /* border: 2px solid green; */
+    height: 50px;
+    /* background-color: rgb(0,102,238); */
+}
+#navigation-details{
+    /* border: 2px solid white; */
+    /* margin: 0 15%; */
+    height: 10px;
+    display: flex;
+    padding-left: 700px;
+    /* justify-content: space-around; */
+    /* gap: 2%; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+#navigation-details button{
+    margin-top: -100px;
+    padding-left: 23px;
+    background-color: white;
+    border: none;
+    color: #fff;
+} 
+/* #navigation-details button:hover{
+    padding: 10px 10px;
+    background-color: rgb(0,84,139);
+    margin: 5px;
+    border: none;
+}   */
+
+#link-color{
+    color: black;
+    /* background-color: #fff; */
+    text-decoration: none;
+    font-weight: 400;
+}
+/* #navbar-bottom{
+    /* border: 2px solid green; 
+    background-color: rgb(0,84,139);
+    display: flex;
+   
+}
+#navbar-bottom-section{
+    height: 45px;
+    /* border: 2px solid white; 
+    margin: 0 15%;
+}
+#navbar-bottom-section button{
+    height: 45px;
+    background-color: rgb(0,84,139);
+    text-decoration: none;
+    padding: 15px;
+    border: none;
+    font-weight: 100;
+} */
+/* @media (max-width: "768px"){
+    #navbar-bottom{
+        width: 70%;
+    margin: 50px auto;
+    }
+    #navbar-bottom-section{
+        margin: 0;
+        /* width: ; 
+    }
+} */

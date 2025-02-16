@@ -1,0 +1,46 @@
+{
+  "cardio": [
+    {
+      "title": "Running (5 mph)",
+      "calories_per_minute": 10
+    },
+    {
+      "title": "Cycling (12-14 mph)",
+      "calories_per_minute": 10
+    },
+    {
+      "title": "Swimming (Freestyle)",
+      "calories_per_minute": 13.33
+    },
+    {
+      "title": "Jump Rope",
+      "calories_per_minute": 12.5
+    }
+  ],
+  "strength": [
+    {
+      "title": "Bench Press",
+      "sets": 3,
+      "reps": 12,
+      "weight": "50 kg"
+    },
+    {
+      "title": "Squats",
+      "sets": 3,
+      "reps": 15,
+      "weight": "60 kg"
+    },
+    {
+      "title": "Deadlifts",
+      "sets": 3,
+      "reps": 10,
+      "weight": "70 kg"
+    },
+    {
+      "title": "Bicep Curls",
+      "sets": 3,
+      "reps": 12,
+      "weight": "15 kg"
+    }
+  ]
+}
